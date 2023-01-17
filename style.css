@@ -12,18 +12,18 @@ body
 {
     width: 80%;
     min-height: 100px;
-    box-shadow: 10px 10px #db2b6e, -10px -10px #e9c535;
+    box-shadow: 10px 10px #db2b6e, -10px -10px #4158D0;
     margin: 50px auto;
     background: black;
+    transition: .2s ease-in-out;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: .2s ease-in-out;
 }
 
 #pageContainer:hover
 {
-    box-shadow: 15px 15px #db2b6e, -15px -15px #e9c535;
+    box-shadow: 15px 15px #db2b6e, -15px -15px #4158D0;
 }
 
 .placeholderText
@@ -31,12 +31,7 @@ body
     font-family: 'Sofia Sans', sans-serif;
     color: white;
     font-size: 60px;
+    text-shadow: 3px 3px #4158D0, -3px -3px #db2b6e;
     margin: 0;
-    position: absolute;
     z-index: 5;
-}
-
-.textShadowUno
-{
-    z-index: 4;
 }
