@@ -2,6 +2,7 @@
 body
 {
     margin: 0;
+    background: #D7DBDD;
 }
 
 #pageContainer
@@ -9,4 +10,6 @@ body
     width: 80%;
     min-height: 100px;
     box-shadow: 10px 10px black;
+    margin: 50px auto;
+    background: white;
 }
