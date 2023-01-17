@@ -2,14 +2,41 @@
 body
 {
     margin: 0;
-    background: #D7DBDD;
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 #pageContainer
 {
     width: 80%;
     min-height: 100px;
-    box-shadow: 10px 10px black;
+    box-shadow: 10px 10px #db2b6e, -10px -10px #e9c535;
     margin: 50px auto;
-    background: white;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s ease-in-out;
+}
+
+#pageContainer:hover
+{
+    box-shadow: 15px 15px #db2b6e, -15px -15px #e9c535;
+}
+
+.placeholderText
+{
+    font-family: 'Sofia Sans', sans-serif;
+    color: white;
+    font-size: 60px;
+    margin: 0;
+    position: absolute;
+    z-index: 5;
+}
+
+.textShadowUno
+{
+    z-index: 4;
 }
